@@ -1,0 +1,10 @@
+{
+  "extends": "./../tsconfig-base.json",
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "es6",
+    "outDir": "../build/client",
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true
+  }
+}
